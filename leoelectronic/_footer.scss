@@ -1,0 +1,80 @@
+
+#footer{
+    background: url(../img/bg_body.png) repeat;
+    border: none !important;
+    .copyright-content{
+        min-height: 50px !important;
+        padding: 15px 0 !important;
+        .container{
+            background-color: #282B2F
+        }
+        .webtienich{
+            color: $webtienich !important;
+        }
+    }
+    h5,a,p{
+        color: #fff;
+    }
+    .container{
+        background-color: #313336;
+        padding-top: 15px;
+    }
+    .panel-sp{
+        background-color: #313336;
+    }
+    .post-item .post-item-description{
+        padding: 15px;
+        p,a{
+            margin: 0;
+            color: #000;
+        }
+    }
+    .owl-carousel .owl-controls .owl-dots{
+        display: none !important;
+    }
+    .owl-prev,.owl-next{
+        background-color: #000 !important;
+        border-color: #000 !important;
+        i{
+            color: #fff !important;
+        }
+        &:hover{
+            background-color: $pink !important;
+            border-color: $pink !important;
+        }
+    }
+    .post-footer{
+        display: flex;
+        flex-direction: row;
+        .img{
+            padding-top: 25px;
+            width: 75%;
+        }
+    }
+}
+.footer-content{
+    padding: 0;
+}
+.nhap-mail{
+    form{
+        input{
+            border-radius: 0;
+            border-color: transparent;
+            background-color: #333;
+            &:focus{
+                border-color: $pink;
+            }
+        }
+        .btn{
+            border-radius: 0;
+            &:hover{
+                background-color: $pink +20;
+                border-color: $pink +20;
+            }
+            &:focus{
+                background-color: $pink;
+            }
+        }
+    }
+}
+

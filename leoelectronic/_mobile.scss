@@ -1,0 +1,77 @@
+.click-dropdown{
+	display: none;
+}
+#header #mainMenu:not(.menu-overlay) nav>ul>li.dropdown:before{
+	display: none !important;
+}
+@media screen and (max-width: 1024px){
+	.yeu{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 991px){
+	#mainMenu nav>ul>li .dropdown-menu>li [class*=col-]>ul>li>a, #mainMenu nav>ul>li .dropdown-menu>li>a, #mainMenu nav>ul>li .dropdown-menu>li>span{
+		color: #fff !important;
+	}
+}
+@media screen and (max-width: 768px){
+	#logo{
+		position: absolute !important;
+	}
+	.taikhoan{
+		display: none;
+	}
+	.dropdown-submenu{
+		&:before{
+			display: none !important;
+		}
+	}
+	.dropdown-menu{
+		left: 0;
+		right: auto;
+		li{
+			a{
+				color: #000;
+			}
+		}
+	}
+	.sidebar{
+		display: none !important;
+	}
+	.click-dropdown{
+		display: inline-block;
+		border: none !important;
+		background-color: transparent !important;
+		color: #fff;
+		margin-top: -40px;
+		position: absolute;
+		right:0;
+	}
+	#page-content{
+		margin-top: 30px;
+	}
+	.fa-angle-down{
+	        display: none !important;
+	    }
+	.slogan{
+		display: none;
+	}
+}
+@media screen and (max-width: 480px){
+	.lienhemobile{
+		display: flex !important;
+		justify-content:center;
+		.email{
+			margin: 0;
+		}
+
+	}
+	.make-color{
+		width: 250px !important;
+	}
+
+}
+@media screen and (max-width: 320px) {
+	
+	
+}

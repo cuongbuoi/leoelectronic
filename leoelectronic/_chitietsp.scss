@@ -1,0 +1,86 @@
+.btn{
+	text-shadow:none !important;
+}
+.btn-cart{
+	background-color: $pink;
+	border: 2px solid $pink;
+	border-radius: 0;
+	color: #fff;
+	transition: 0.3s;
+	&:hover{
+		background-color: $pink +30;
+		border: 2px solid $pink !important;
+		color: #fff;
+	}
+	&:active{
+		background-color: $pink +30;
+		border: 2px solid $pink !important;
+		color: #fff;
+	}
+	&:focus{
+		background-color: $pink +30;
+		border: 2px solid $pink !important;
+		color: #fff;
+	}
+}
+.product-price{
+	ins{
+		color: $red !important;
+	}
+}
+.product-color {
+	display: block;
+	list-style: none;
+	margin: 0 20px 15px 0;
+	overflow: hidden;
+	padding-left: 0;
+	li {
+		float: left;
+		margin: 0 -1px 0 0;
+		label{
+			span{
+				cursor: pointer;
+				display: block;
+				font-size: 1.2em;
+				font-weight: 400;
+				height: 40px;
+				line-height: 37px;
+				margin: 0;
+				text-align: center;
+				transition: all .3s ease 0s;
+				width: 40px;
+				border: 1px solid #eee;
+				color: #909090;
+
+				&:hover{
+					background-color: #eee
+				}
+			}
+			.do{
+				background-color: $red;
+			}
+			.hong{
+				background-color: $pink;
+			}
+			.vang{
+				background-color: $webtienich;
+			}
+			.den{
+				background-color: #000;
+			}
+			input{
+				left: -9000px;
+				position: absolute;
+				&:checked+span{
+					border-color: $orange;
+					border-width: 2px;
+				}
+			}
+		}
+	}
+}
+.shop{
+	.tabs-content{
+		padding: 15px;
+	}
+}

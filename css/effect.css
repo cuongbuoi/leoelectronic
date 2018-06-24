@@ -1,0 +1,37 @@
+.effect a{
+	position:relative;
+	display:inline-block;
+	max-width:100%
+}
+.effect a:before{
+	position:absolute;
+	content:"";
+	top:0;
+	left:0;
+	width:0;
+	height:0;
+	margin:auto;
+	background-color:rgba(255,255,255,.1);
+	-webkit-transition:all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-out 0s;
+	-ms-transition:all 0.3s ease-out 0s;
+	-o-transition:all 0.3s ease-out 0s;
+	transition:all 0.3s ease-out 0s}
+.effect a:after{
+	content:"";
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:0;
+	height:0;
+	background-color:rgba(255,255,255,.1);
+	-webkit-transition:all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-out 0s;
+	-ms-transition:all 0.3s ease-out 0s;
+	-o-transition:all 0.3s ease-out 0s;
+	transition:all 0.3s ease-out 0s
+}
+.effect a:hover:before,.effect a:hover:after{
+	width:100%;
+	height:100%;
+}

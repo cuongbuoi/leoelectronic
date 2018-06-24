@@ -1,0 +1,46 @@
+.sidebar-btn{
+	float: right;
+	background-color: transparent;
+	border: none;
+}
+ul{
+	list-style-type: none;
+}
+#collapse-menu{
+	padding-left: 10px !important;
+	li{
+		padding-left: 10px;
+		border-bottom: none;
+	}
+}
+.widget-heading{
+	height: 50px;
+	padding: 10px;
+	&.danhmuc{
+		background-color: $pink;
+	}
+	&.khuyenmai{
+		background-color: $pink;
+	}
+	&.tintuc{
+		background-color: $pink;
+		margin-bottom: 10px;
+	}
+	h4{
+		color: #fff;
+		font-size: 1.35714286em !important;
+    		line-height: 1.68421053em !important;
+	}
+}
+.danhmuc{
+	.widget{
+		border: 1px solid #ddd;
+		margin-bottom: 15px !important;
+		a,i,span{
+			font-weight: bold;
+		}
+		.product{
+			padding: 15px;
+		}
+	}
+}
